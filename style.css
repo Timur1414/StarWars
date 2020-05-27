@@ -72,6 +72,7 @@ header {
     background-image: url(imgs/fon.png);
     background-size: cover;
     height: 100vh;
+    width: calc(100vw - 17px);
 }
 h1 {
     font-family: "Russo One", sans-serif;
@@ -246,6 +247,8 @@ footer {
 }
 #tema:active {
     border: 1px solid green;
+    right: 19px;
+    bottom: 19px;
 }
 
 @media (min-width: 1024px) {
