@@ -262,9 +262,9 @@ footer {
         background-color: black;
     }
     #tema:active {
-        border: 1px solid green;
-        right: 19px;
-        bottom: 19px;
+        border: 2px solid green;
+        right: 18px;
+        bottom: 18px;
     }
 }
 @media (min-width: 1380px) {
