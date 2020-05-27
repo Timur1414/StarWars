@@ -72,7 +72,7 @@ header {
     background-image: url(imgs/fon.png);
     background-size: cover;
     height: 100vh;
-    width: calc(100vw - 17px);
+    width: 100vw;
 }
 h1 {
     font-family: "Russo One", sans-serif;
@@ -236,22 +236,10 @@ footer {
     background-image: url(imgs/kwai2.png);
 }
 #tema {
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
-    padding: 5px;
-    border: none;
-    border-radius: 5px;
-    color: red;
-    background-color: black;
-}
-#tema:active {
-    border: 1px solid green;
-    right: 19px;
-    bottom: 19px;
+    display: none;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
     header {
         display: block;
         height: 10%;
@@ -262,5 +250,25 @@ footer {
         display: flex;
         justify-content: space-around;
     }
-    
+    #tema {
+        display: block;
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+        padding: 5px;
+        border: none;
+        border-radius: 5px;
+        color: red;
+        background-color: black;
+    }
+    #tema:active {
+        border: 1px solid green;
+        right: 19px;
+        bottom: 19px;
+    }
+}
+@media (min-width: 1380px) {
+    .hi {
+        width: calc(100vw - 17px);
+    }
 }
