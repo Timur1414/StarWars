@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Russo+One&display=swap');
+
 @keyframes foot {
     from {
         background-color: darkblue;
@@ -13,7 +15,6 @@
 
     }
 }
-
 
 #b {
     font-size: 110%;
@@ -73,9 +74,10 @@ header {
     height: 100vh;
 }
 h1 {
+    font-family: "Russo One", sans-serif;
     font-size: 200%;
     position: absolute;
-    left: 20%;
+    left: 15%;
     top: 50%;
     color: yellow;
 }
@@ -90,6 +92,9 @@ h1 {
     margin: auto;
     text-align: justify;
     width: 60%;
+}
+h2 {
+    font-family: "Rubik Mono One", sans-serif;
 }
 #revan {
     border-radius: 5vh;
