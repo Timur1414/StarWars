@@ -1,0 +1,238 @@
+@keyframes foot {
+    from {
+        background-color: darkblue;
+        color: red;
+    }
+    50% {
+        background-color: red;
+        color: darkblue;
+    }
+    to {
+        background-color: darkblue;
+        color: red;
+
+    }
+}
+
+
+body {
+    font-size: 110%;
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+}
+header {
+    display: none;
+    
+}
+#btn {
+    margin: 20px 0;
+    padding: 5px 5px;
+    background-color: dodgerblue;
+    color: yellow;
+    border: 2px solid red;
+}
+#btn:active {
+    border: 3px solid red;
+    color: orange;
+}
+#menu {
+    color: darkblue;
+    background-color: lightblue;
+    transition: 2s;
+    left: -200px;
+    position: fixed;
+    padding: 10px;
+    top: 10%;
+}
+#menu.menu_is-open {
+    left: 0;
+}
+.in_head {
+    color: yellow;
+    font-size: 150%;
+}
+.logo {
+    margin-top: 12px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.s:visited {
+    color: blue;
+}
+.hi {
+    background-image: url(imgs/fon.png);
+    background-size: cover;
+    height: 100vh;
+}
+h1 {
+    font-size: 200%;
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    color: yellow;
+}
+.foto {
+    transition: 1s;
+    margin: 5px auto;
+    width: 600px;
+    height: 300px;
+    background-size: 600px 300px;
+}
+.about {
+    margin: auto;
+    text-align: justify;
+    width: 60%;
+}
+#revan {
+    border-radius: 5vh;
+    text-align: center;
+    background-color: red;
+    padding: 10px;
+    margin: 20px 40px;
+}
+#ioda {
+    border-radius: 5vh;
+    text-align: center;
+    background-color: forestgreen;
+    padding: 10px;
+    margin: 20px 40px;
+}
+#enakin {
+    border-radius: 5vh;
+    text-align: center;
+    background-color: red;
+    padding: 10px;
+    margin: 20px 40px;
+}
+#shan {
+    border-radius: 5vh;
+    text-align: center;
+    background-color: forestgreen;
+    padding: 10px;
+    margin: 20px 40px;
+}
+#plegas {
+    border-radius: 5vh;
+    text-align: center;
+    background-color: red;
+    padding: 10px;
+    margin: 20px 40px;
+}
+#bein {
+    border-radius: 5vh;
+    text-align: center;
+    background-color: red;
+    padding: 10px;
+    margin: 20px 40px;
+}
+#marek {
+    border-radius: 5vh;
+    text-align: center;
+    background-color: forestgreen;
+    padding: 10px;
+    margin: 20px 40px;
+}
+#nihilus {
+    border-radius: 5vh;
+    text-align: center;
+    background-color: red;
+    padding: 10px;
+    margin: 20px 40px;
+}
+#graf {
+    border-radius: 5vh;
+    text-align: center;
+    background-color: red;
+    padding: 10px;
+    margin: 20px 40px;
+}
+#kvai {
+    border-radius: 5vh;
+    text-align: center;
+    background-color: forestgreen;
+    padding: 10px;
+    margin: 20px 40px;
+}
+footer {
+    width: calc(100%-20px);
+    padding: 10px;
+    animation: foot 4s infinite;
+}
+.a_in_footer {
+    color: lawngreen;
+}
+#f_rev {
+    background-image: url(imgs/revan.png);
+}
+#f_rev:hover {
+    background-image: url(imgs/revan2.png);
+}
+#f_ioda {
+    background-image: url(imgs/%D0%B9%D0%BE%D0%B4%D0%B0.png);
+}
+#f_ioda:hover {
+    background-image: url(imgs/ioda2.png);
+}
+#f_en {
+    background-image: url(imgs/enakin.png);
+}
+#f_en:hover {
+    background-image: url(imgs/enakin2.png);
+}
+#f_sh {
+    background-image: url(imgs/shan.png);
+}
+#f_sh:hover {
+    background-image: url(imgs/shan2.png);
+}
+#f_pl {
+    background-image: url(imgs/pleg.png);
+}
+#f_pl:hover {
+    background-image: url(imgs/pleg2.png);
+}
+#f_b {
+    background-image: url(imgs/bein.png);
+}
+#f_b:hover {
+    background-image: url(imgs/bein2.png);
+}
+#f_m {
+    background-image: url(imgs/star.png);
+}
+#f_m:hover {
+    background-image: url(imgs/star2.png);
+}
+#f_nih {
+    background-image: url(imgs/nih.png);
+}
+#f_nih:hover {
+    background-image: url(imgs/nih2.png);
+}
+#f_graf {
+    background-image: url(imgs/graf.png);
+}
+#f_graf:hover {
+    background-image: url(imgs/Dooku.png);
+}
+#f_gon {
+    background-image: url(imgs/kwai.png);
+}
+#f_gon:hover {
+    background-image: url(imgs/kwai2.png);
+}
+
+@media (min-width: 1024px) {
+    header {
+        display: block;
+        height: 10%;
+        margin: 0;
+        width: 100%;
+        position: fixed;
+        background-color: black;
+        display: flex;
+        justify-content: space-around;
+    }
+}
