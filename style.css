@@ -15,11 +15,17 @@
 }
 
 
-body {
+#b {
     font-size: 110%;
     margin: 0;
     padding: 0;
     background-color: blue;
+}
+#b.chenge_color {
+    font-size: 110%;
+    margin: 0;
+    padding: 0;
+    background-color: yellow;
 }
 header {
     display: none;
@@ -222,6 +228,19 @@ footer {
 }
 #f_gon:hover {
     background-image: url(imgs/kwai2.png);
+}
+#tema {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    color: red;
+    background-color: black;
+}
+#tema:active {
+    border: 1px solid green;
 }
 
 @media (min-width: 1024px) {
