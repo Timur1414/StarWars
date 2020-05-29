@@ -26,7 +26,7 @@
     font-size: 110%;
     margin: 0;
     padding: 0;
-    background-color: yellow;
+    background-color: skyblue;
 }
 header {
     display: none;
@@ -96,6 +96,7 @@ h1 {
     background-size: 100% 300px;
 }
 .about {
+    padding: 10px;
     margin: auto;
     text-align: justify;
     width: 60%;
