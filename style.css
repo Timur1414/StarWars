@@ -75,6 +75,8 @@ header {
     width: 100vw;
 }
 .privet {
+    padding: 5px;
+    margin: 10px;
     font-size: 110%;
     font-family: "Scada", sans-serif;
 }
