@@ -97,6 +97,7 @@ h1 {
 }
 .about {
     padding: 10px;
+    line-height: 120%;
     margin: auto;
     text-align: justify;
     width: 60%;
