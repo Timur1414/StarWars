@@ -242,6 +242,9 @@ footer {
 #tema {
     display: none;
 }
+#tema.ch_color {
+    color: forestgreen;
+}
 
 @media (min-width: 768px) {
     header {
@@ -266,7 +269,7 @@ footer {
         background-color: black;
     }
     #tema:active {
-        border: 2px solid green;
+        border: 2px solid yellow;
         right: 18px;
         bottom: 18px;
     }
