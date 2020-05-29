@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Russo+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Scada&display=swap');
 @keyframes foot {
     from {
         background-color: darkblue;
@@ -73,6 +73,10 @@ header {
     background-size: cover;
     height: 100vh;
     width: 100vw;
+}
+.privet {
+    font-size: 110%;
+    font-family: "Scada", sans-serif;
 }
 h1 {
     font-family: "Russo One", sans-serif;
